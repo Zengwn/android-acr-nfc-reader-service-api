@@ -18,6 +18,8 @@ Supported tag technology
 Mifare Ultralight and Mifare Classic tags are supported. NTAG203 also work. I recommend Mifare Ultralights or NTAG203. 
 If you need some tags, get some at [RapidNFC](http://rapidnfc.com/r/1372).
 
+Note: For ACR 122U the Mifare Classic support is experimental.
+
 API
 ===
 The API defines actions and Intent extras for interaction with the service.
