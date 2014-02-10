@@ -41,8 +41,8 @@ Reading and writing NDEF messages are premium features. This API should speed up
 
 Troubleshooting
 ===========
-Does the ACR reader not light up when connected to your device, even after the service asks for USB permissions? The ACR reader shuts down if there is not enough battery, so try charging your battery more. Please report any issues.
+Does the ACR reader not light up when connected to your device, even after the service asks for USB permissions? The ACR reader shuts down if there is not enough battery, so try charging your battery more. Please report any issues to skjolber@gmail.com.
 
 Need help?
 ===========
-If you need professional help with an NFC project, get in touch. A more advanced API is available upon request.
+If you need professional assistance with an NFC project, get in touch. A more advanced API is available upon request, which also includes direct reader commands.
