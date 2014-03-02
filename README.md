@@ -10,6 +10,7 @@ Supported readers
 Currently the readers
  * [ACR 122U](http://www.acs.com.hk/index.php?pid=product&id=ACR122U) 
  * [ACR 1222L](http://www.acs.com.hk/index.php?pid=product&id=ACR1222L)
+ * [ACR 1251](http://www.acs.com.hk/en/products/218/acr1251-usb-nfc-reader-ii/)
  
 are supported and must be connected to your Android device via an On-The-Go (OTG) USB cable.
 
