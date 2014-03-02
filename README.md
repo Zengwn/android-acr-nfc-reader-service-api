@@ -38,12 +38,26 @@ Detecting tag presence, type and id are free features.
 
 Premium features
 ===========
-Reading and writing NDEF messages are premium features. This API should speed up NFC development considerably, so consider going premium.
+Reading and writing NDEF messages are premium features. This API should speed up NFC development considerably, so consider going premium. A more advanced API is available upon request, which also includes direct reader commands. I offer pay-once licenses both for source and/or compiled library. Having the library will save you anywhere between 1 and 3 months of work.
 
 Troubleshooting
 ===========
 Does the ACR reader not light up when connected to your device, even after the service asks for USB permissions? The ACR reader shuts down if there is not enough battery, so try charging your battery more. Please report any issues to skjolber@gmail.com.
 
+Related apps
+============
+You might be interested in
+ * [ACR 1222L USB NFC Reader Utils](https://play.google.com/store/apps/details?id=com.skjolberg.acr1222) 
+ * [ACR 122 USB NFC Reader Utils](https://play.google.com/store/apps/details?id=com.skjolberg.acr122u)
+
+for configuration of your reader.
+
 Need help?
 ===========
-If you need professional assistance with an NFC project, get in touch. A more advanced API is available upon request, which also includes direct reader commands.
+If you need professional assistance with an NFC project, get in touch. I also do
+
+ * Host Card Emulation for Android
+ * Desfire EV1 tags (with encryption)
+ * Smart card related workflows and integrations
+
+Check out my professional profile and connect with me on [LinkedIn](http://lnkd.in/r7PWDz).
