@@ -16,8 +16,7 @@ are supported and must be connected to your Android device via an On-The-Go (OTG
 
 Supported tag technology
 ========================
-Mifare Ultralight and Mifare Classic tags are supported. NTAG203 also work. I recommend Mifare Ultralights or NTAG203. 
-If you need some tags, get some at [RapidNFC](http://rapidnfc.com/r/1372).
+Mifare Ultralight and Mifare Classic tags are supported. NTAG203 also work. I recommend Mifare Ultralights or NTAG203. Desfire EV1 tags are detected but there is no NDEF support. If you need some tags, get some at [RapidNFC](http://rapidnfc.com/r/1372).
 
 Note: For ACR 122U the Mifare Classic support is experimental.
 

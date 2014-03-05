@@ -20,6 +20,7 @@
 package com.skjolberg.acs.reader.client;
 
 import java.nio.charset.Charset;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
@@ -322,6 +323,13 @@ public class MainActivity extends Activity {
 		} else {
 			setTagType(getString(R.string.tagTypeOther));
 			setTagId(getString(R.string.tagIdUnknown));
+		}
+		
+		// also print names, if present
+		if(intent.hasExtra(Broadcast.EXTRA_NAMES)) {
+			ArrayList<String> names = intent.getStringArrayListExtra(Broadcast.EXTRA_NAMES);
+			
+			Log.d(TAG, "Tag names: " + names);
 		}
 	}
 	

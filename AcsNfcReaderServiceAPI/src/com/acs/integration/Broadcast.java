@@ -42,6 +42,9 @@ public interface Broadcast {
     public static final String EXTRA_NDEF_MESSAGES = "com.acs.integration.extra.EXTRA_NDEF_MESSAGES";
     public static final String EXTRA_TAG = "com.acs.integration.extra.TAG";
     public static final String EXTRA_ID = "com.acs.integration.extra.ID";
+    
+    /** ATR identified from list in http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt */
+    public static final String EXTRA_NAMES = "com.acs.integration.extra.NAMES";
 
 	public static final String ACTION_NFC_TAG_LEFT_FIELD = "com.acs.integration.action.NFC_TAG_LEFT_FIELD";
 
